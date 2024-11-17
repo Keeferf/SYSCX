@@ -1,0 +1,181 @@
+/* general text formatting */
+h1,
+h2,
+h3,
+nav,
+footer,
+div {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+}
+
+/* header and footer */
+header,
+footer {
+  color: white;
+  background-color: #4b4b4b;
+}
+
+header h1 {
+  padding: 8px 0 0 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+  padding: 0 0 20px 20px;
+}
+
+/* Form style */
+legend {
+  margin: 0;
+  padding: 5px 0px;
+  height: 27.2px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 21.6px;
+  color: #ffffff;
+  background-color: #808080;
+}
+
+legend span {
+  display: inline;
+  padding: 0px 0px 0px 15px;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+  width: 100%;
+  border: none;
+}
+
+form p {
+  margin-top: 8px;
+  margin-left: 16px;
+  padding: 0px 0px 0px 5px;
+}
+form input,
+select {
+  margin: 5px;
+}
+
+form input[type="submit"],
+input[type="reset"] {
+  margin: 0 1px 10px 20px;
+  font-size: medium;
+  text-transform: capitalize;
+}
+
+section h2 {
+  font-size: 21.6px;
+  background-color: #919191;
+  height: 27.2px;
+  color: #f0f0f0;
+  border: solid 1px black;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  padding: 5px 0;
+}
+
+label img {
+  margin: 16px 0px;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Left navigation bar styling*/
+#nav-left {
+  background-color: #e8e8e8;
+  width: 12%;
+  margin-left: 3%;
+  float: left;
+  min-height: 100vh;
+}
+#nav-left ul {
+  list-style: none;
+  padding: 0;
+}
+#nav-left li {
+  text-align: center;
+  font-weight: bold;
+}
+#nav-left ul li a {
+  padding: 8px 16px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+/* Change the link color on hover */
+#nav-left > ul > li a:hover {
+  background-color: #919191;
+  color: white;
+}
+#nav-left > ul > li a.active {
+  background-color: #E9E9E9;
+  color: white;
+}
+#nav-left > ul > li a:hover:not(.active) {
+  background-color: #919191;
+  color: white;
+}
+
+/* Middle bar styling*/
+#middle, #profile-middle {
+  background-color: white;
+  width: 68%;
+  margin: 0 auto;
+}
+main section {
+  padding-top: 10px;
+}
+#middle textarea {
+  margin: 10px 20px;
+}
+#middle details {
+  border: 3px solid #e8e8e8;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.input-sections div {
+  padding: 5px;
+}
+.input-sections div div{
+  padding: 0;
+}
+
+/* Right information bar styling*/
+#info-right {
+  background-color: #e8e8e8;
+  width: 12%;
+  margin-right: 3%;
+  float: right;
+  min-height: 100vh;
+  text-align: center;
+}
+#info-right div {
+  padding: 8px 16px;
+}
+#info-right div img {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+}
+#info-right div p {
+  word-wrap: break-word;
+  margin: 10px;
+}
